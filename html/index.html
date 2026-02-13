@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            border: 1px solid black;
+
+        }
+        .headersection{
+            height: 30vh;
+            border:1px solid black;
+            background-color:burlywood;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .headerText{
+        color: white;
+        }
+        .parentSection{
+            display: flex;
+        height: 50vh;  
+            
+        }
+        .leftSection{
+            background-image:url("./londonMenu.jpg");
+            background-attachment: fixed;
+            object-fit: cover;
+
+            width: 40%;
+    display: flex;
+    /* align-items: center; */
+    padding: 50px 0px 0px 70px;
+    background-color: cadetblue;
+
+        }
+        .rightSection{
+            width: 60% ;
+            /* display: flex; */
+            /* flex-direction: column; */
+            padding: 50px 0px 0px 50px;
+            background-color:grey;
+        }
+        .footerSection{
+            height: 20vh;
+                        background-color:burlywood;
+                         text-align: center;
+                                     display: flex;
+                                                 justify-content: center;
+                                                             align-items: center;
+                                                             color: white;
+
+        }
+            li{
+            padding: 5px;
+
+        }
+        a{
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+        }
+        .childRightsection{
+            
+        }
+        p{
+            font-size: 15   px;
+        }
+        img{
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        .heading{
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+            gap:10px;
+        }
+        .border{
+            height: 65px;
+            width: 65px;
+            border-radius: 50px;
+            border: 4px black solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="headersection">
+            <h2 class="headerText">CITIES</h2>
+        </div>
+        <div class="parentSection">
+            <div class="leftSection">
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="Contact">Contact</a></li>
+            </ul>            
+        </div>
+            <div class="rightSection">
+                <div class="heading">
+                    <div class="border">
+                    <img src="./wallpaper.png" alt="">
+                </div>
+                    <h1>London</h1>
+                </div>
+                                    
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, tenetur.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quos nemo culpa quis dignissimos totam.</p>
+   
+            </div>
+        </div>
+        <div class="footerSection">
+            <h2>FOOTER</h2>
+        </div>
+    </div>
+    
+</body>
+</html>

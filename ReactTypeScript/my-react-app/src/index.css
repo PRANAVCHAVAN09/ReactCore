@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100VH;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.InnterDiv {
+  /* border: 1px solid black; */
+  width: 60%;
+  height: 250px;
+  /* border: 2px solid black; */
+
+
+
+}
+
+.TabOptions {
+  border: 1px solid;
+  height: 30px;
+  padding: 5px 17px;
+  cursor: pointer;
+}
+
+
+.Tabs {
+  display: flex;
+}
+
+.ComponentDiv {
+  /* margin-top: 20px; */
+  display: flex;
+  flex-direction: column;
+  height: 300 px;
+  border: 2px solid black;
+  align-items: center;
+  /* padding: 10px; */
+}
+
+.labelInt {
+  padding: 20px;
+}
+
+.labelInt1 {
+  padding: 13px;
+
+}
+
+.ButtonSection {
+
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.ButtonSection>button {
+  padding: 5px;
+  margin: 10px;
+}
